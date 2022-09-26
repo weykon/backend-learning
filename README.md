@@ -1,5 +1,5 @@
 #  record the view of totally processing for me about learning backend knownledge
-
+> and write English.
 ## What's about Async support for database? 
  - https://github.com/redis-rs/redis-rs here is a crate for rust operate redis on it, having two different features. 
  one of tokio, the other is async.
