@@ -1,0 +1,1 @@
+[some practices of database management](https://www.lucidchart.com/blog/database-management-best-practices)
