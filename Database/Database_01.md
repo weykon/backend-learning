@@ -29,3 +29,26 @@ I got this point because the post say, as now, more SQL in the internet, good fo
      > DQL allows users to query data, which is usually the most frequent database operation.
 
 So I think, writing code should keep these abstract level saving, such as Authorization.
+
+## What is main key ? 
+
+the key record data must be unique.
+
+commonly, name, identity card, etc. are not to be main key for distinction.
+
+So, the principle is none specification at the business code.
+
+* 1. self-propagation id coun
+* 2. GUID
+
+(Main Key unallow NULL.)
+
+## What is combine main key ? 
+
+| id_num | id_type | other colummns... |
+| ---- | ---- |---- |
+| 1 | A | ... |
+| 2 | A | ... |
+| 2 | B | ... |
+
+it is not necessary to use this in a general way.
